@@ -1,0 +1,19 @@
+Set up the transmitter section according to the Arduino Sketch given.Upload the code transmitter.ino in the Arduino
+The gas sensors used for this project are MQ2,MQ3,MQ4,MQ5.Sensors are powered from Arduino Mega and the analog values are read with the analog pins.
+Power up the transmitter circuitry and read the sensor values using the android application 'Serial Bluetooth Terminal'
+
+https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en
+
+Using the application,'Serial Bluetooth Terminal' keep a log of the values in the environment under observation.
+Take log for 5-6 hours.Once the values are obtained,using k-means find the cluster centroids.
+
+Use k_means.py for finding the cluster centroids.
+
+It will produce cluster centroid values for 'GOOD' and 'WORSE' conditions.
+Update the centroid values in the Arduino code,transmitter.ino 
+
+
+Set up the receiver section according to the Arduino Sketch given.
+Upload the code receiver.ino in the Arduino
+You can use either RGB led strips or 16*2 lcd display or buzzers for the alerts on worse conditions.
+Update the receiver circuit and receiver.ino code accordingly

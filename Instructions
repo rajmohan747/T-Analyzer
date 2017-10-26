@@ -22,5 +22,5 @@ Update the centroid values in the Arduino code,transmitter.ino
 Set up the receiver section according to the Arduino Sketch given.
 Upload the code receiver.ino in the Arduino
 You can use either RGB led strips or 16*2 lcd display or buzzers for the alerts on worse conditions.
-Update the receiver circuit and receiver.ino code accordingly
+Update the receiver circuit and receiver.ino code accordingly.
  
